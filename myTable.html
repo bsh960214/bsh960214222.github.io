@@ -1,0 +1,32 @@
+<!doctype html> <!-- myTable.html -->
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewpor" content="width=device-width, initial-scale=1"/>
+<style>
+table , thead , tbody , tfoot , tr , th ,td{ border:2px solid black; border-collapse: collapse;text-align: center;}
+.subject1 {background-color:lightgray;}
+.subject2 {background-color:red}
+.subject3 {background-color:green} 
+.subject4 {background-color:gray}
+.subject5 {background-color:purple} 
+.subject6 {background-color:pink}
+th,td {width:50px;}
+</style>
+<tilte>HTML5 개인 시간표 과제</tilte>
+</head>
+<body>
+<table>
+<caption>&lt;개인 시간표&gt;</caption>
+<thead><th>시간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th></thead>
+<tbody>
+<tr><td>1교시</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td class="subject1"> 프로젝트관리</td></tr>
+<tr><td>2교시</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>3교시</td><td rowspan="2" class="subject2">디지털 논리회로</td><td rowspan="2" class="subject3">네트워크 보안</td><td>-</td><td>-</td><td class="subject4">캡스톤 디자인</td><td>-</td></tr>
+<tr><td>4교시</td><td>-</td><td>-</td><td rowspan="3" class="subject5">정치학</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>5교시</td><td>-</td><td class="subject2">디지털 논리회로/td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>6교시</td><td>-</td><td rowspan="2" class="subject4">캡스톤 디자인</td><td>-</td><td class="subject3">네트워크 보안</td><td>-</td><td>-</td></tr>
+<tr><td>7교시</td><td>-</td><td>-</td><td rowspan="2" class="subject6">인터넷 응용</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>8교시</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>9교시</td><td>-</td><td>-</td><td>-</td><td>-</td><td class="subject6">인터넷 응용</td><td>-</td></tr>
+</tbody></table></body></html>
